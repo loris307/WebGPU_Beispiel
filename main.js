@@ -42,7 +42,7 @@ async function initWebGPU() {
   
 	  @fragment
 	  fn main_fragment() -> @location(0) vec4<f32> {
-		  // Gibt jedem Pixel des Dreiecks eine rote Farbe zurück
+		  // Gibt jedem Pixel des Dreiecks eine pinke Farbe zurück
 		  return vec4<f32>(1.0, 0.0, 1.0, 1.0);
 	  }
 	`;
